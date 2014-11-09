@@ -9,10 +9,6 @@ get '/' do
   erb :index
 end
 
-get '/credits' do
-  erb :credits
-end
-
 get '/panda' do
   erb :panda
 end
